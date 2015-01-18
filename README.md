@@ -24,14 +24,14 @@
 
 2. 手动下载安装
 
-手动[下载本项目](https://github.com/overtrue/qiniu/archive/master.zip) 然后引入两个文件即可：
+    手动[下载本项目](https://github.com/overtrue/qiniu/archive/master.zip) 然后引入两个文件即可：
 
-```php
-require "src/Qiniu/HttpClient.php";
-require "src/Qiniu/Qiniu.php";
-```
+    ```php
+    require "src/Qiniu/HttpClient.php";
+    require "src/Qiniu/Qiniu.php";
+    ```
 
-可以参考:[test.php](https://github.com/overtrue/qiniu/blob/master/demo.php)
+    可以参考:[test.php](https://github.com/overtrue/qiniu/blob/master/demo.php)
 
 # Usage
 
