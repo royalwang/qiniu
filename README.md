@@ -3,7 +3,7 @@
 七牛SDK
 
 
-# Install
+## Install
 
 有两种安装方法：
 
@@ -33,7 +33,7 @@
 
     可以参考：[demo.php](https://github.com/overtrue/qiniu/blob/master/demo.php)
 
-# Usage
+## Usage
 
 引入命名空间：
 
@@ -59,7 +59,7 @@ $qiniu = Qiniu::make($options);
 
 从哪儿得到access_key与secret_key? https://portal.qiniu.com/setting/key
 
-## 上传文件
+#### 上传文件
 
 语法： `$qiniu->upload(本地文件路径, [目标文件名])`
 
@@ -81,7 +81,7 @@ $result = $qiniu->upload(__DIR__ . '/hello.jpg', 'hello.jpg');
 
 [官方文档](http://developer.qiniu.com/docs/v6/api/reference/up/upload.html)
 
-## 移动文件(修改文件名)
+#### 移动文件(修改文件名)
 
 
 语法： `$qiniu->move(已经存在的文件名, 目标文件名)`
@@ -95,7 +95,7 @@ $result = $qiniu->move('hello.jpg', 'world.jpg');
 
 [官方文档](http://developer.qiniu.com/docs/v6/api/reference/rs/move.html)
 
-## 删除文件
+#### 删除文件
 
 
 语法： `$qiniu->delete(已经存在的文件名, 目标文件名)`
@@ -109,7 +109,7 @@ $result = $qiniu->delete('hello.jpg');
 
 [官方文档](http://developer.qiniu.com/docs/v6/api/reference/rs/delete.html)
 
-## 复制文件
+#### 复制文件
 
 
 语法： `$qiniu->copy(已经存在的文件名, 目标文件名)`
@@ -123,7 +123,7 @@ $result = $qiniu->move('hello.jpg', 'world.jpg');
 
 [官方文档](http://developer.qiniu.com/docs/v6/api/reference/rs/copy.html)
 
-## 列举文件
+#### 列举文件
 
 
 语法： `$qiniu->lists(array 选项)`
@@ -165,7 +165,7 @@ $result = $qiniu->lists(['prefix' => 'hello']); //列出以hello开头的文件
 }
 ```
 
-## 文件信息
+#### 文件信息
 
 
 语法： `$qiniu->lists(array 选项)`
@@ -189,6 +189,6 @@ $result = $qiniu->info('hello22.jpg');
 
 [官方文档](http://developer.qiniu.com/docs/v6/api/reference/rs/stat.html)
 
-# License
+## License
 
 MIT
