@@ -31,6 +31,10 @@ $qiniu = Qiniu::make($options);
 // 移动文件
 //$result = $qiniu->move('hello.jpg', 'hell111o.jpg');
 // 成功返回null
+//
+// 删除文件
+//$result = $qiniu->delete('hello.jpg');
+// 成功返回null
 
 // 复制内容
 // $result = $qiniu->copy('hello.jpg', 'hello22.jpg');
