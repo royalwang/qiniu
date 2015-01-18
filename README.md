@@ -31,7 +31,7 @@
     require "src/Qiniu/Qiniu.php";
     ```
 
-    可以参考:[test.php](https://github.com/overtrue/qiniu/blob/master/demo.php)
+    可以参考：[demo.php](https://github.com/overtrue/qiniu/blob/master/demo.php)
 
 # Usage
 
