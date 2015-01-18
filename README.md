@@ -1,6 +1,6 @@
 # Qiniu
 
-七牛SDK
+七牛SDK，它存在的原因只是为了简化。
 
 
 ## Install
