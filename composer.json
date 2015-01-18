@@ -1,0 +1,17 @@
+{
+    "name": "overtrue/qiniu",
+    "description": "七牛SDK",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "overtrue",
+            "email": "anzhengchao@gmail.com"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "Overtrue\\": "src/"
+        }
+    },
+    "require": {}
+}
