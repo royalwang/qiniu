@@ -59,6 +59,8 @@ $qiniu = Qiniu::make($options);
 
 从哪儿得到access_key与secret_key? https://portal.qiniu.com/setting/key
 
+>注意：所有有返回值的均为数组，以下示例只是为了方便查看以json形式展示。
+
 #### 上传文件
 
 语法： `$qiniu->upload(本地文件路径, [目标文件名])`
